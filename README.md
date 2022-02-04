@@ -12,3 +12,11 @@ It does following:
  - face aligning (image is rotated + scaled to make line joining eyes, horizontal :traffic_light: then it is scaled to a standard face)
  - resizing of images to some size defined by the user :man-gesturing-ok:
 
+
+# How to run?
+
+ - Following command runs a parallel code to effectivaly assign unique labels to each identity (all identities are defined by unique folders enclosed into a single folder defined by `--d` flag). It generates *separate csv files for each identity* and then *combines* them into single file (defined by `--c` flag)
+
+```bash
+    python generate_csv.py  --c ./dataset.csv --d images
+```
