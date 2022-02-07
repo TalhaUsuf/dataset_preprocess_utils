@@ -20,7 +20,7 @@ It does following:
 ```bash
     python generate_csv.py  --c ./dataset.csv --d images
 ```
- - Process the **csv** file generated, convert to one-hot encoded labels and apply *iterative-train-test split* to get train and test sets. Both *train* as well as *test* steps will be *balanced*.
+ - Process the **csv** file generated, convert to one-hot encoded labels and apply *iterative-train-test split* to get train and test sets. Both *train* as well as *test* steps will be *balanced*. :balance_scale:
   
 ```bash
     python iterative_split.py -c dataset.csv -t train.csv -v valid.csv
