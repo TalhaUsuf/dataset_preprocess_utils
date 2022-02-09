@@ -1,5 +1,5 @@
 from cv2 import transform
-from torch.utils.dataset import Dataset
+from torch.utils.data import Dataset
 from rich.console import Console
 import albumentations as A
 import torch
